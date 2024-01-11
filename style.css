@@ -1,0 +1,64 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#mainDiv{
+    background-color: lightgrey;
+    height: 100vh;
+}
+li.nav-item{
+    font-weight: bold;
+}
+.circle{
+    border-radius: 50%;
+}
+#user{
+    width: 40px;
+}
+form i.fa-regular{
+    background-color: rgb(235, 235, 235);
+    padding: 10px;
+}
+#jumbotron{
+    background-color: #7550FE;
+    height: 40vh;
+    position: relative;
+}
+#welcome h1 , p{
+    color: white;
+}
+#welcome button{
+    font-weight: bold;
+    font-size: small;
+    padding: 10px 20px 10px 20px;
+}
+#jumbotron img{
+    width: 492px;
+}
+#jumbotron div.conteiner{
+    width: 50vw;
+}
+.stats{
+    background-color: white;
+    gap: 140px;
+    width: 100vw;
+}
+.stats p{
+    color: black;
+    margin: 0;
+}
+.stats i.fa-solid{
+    background-color: #FFEEDA;
+    padding: 20px;
+    color: #c28135;
+}
+div.stats > div{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.stats-info{
+    height: 60px;
+}
+
+

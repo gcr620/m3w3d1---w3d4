@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>m3w3d1</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+<body>
+    <div id="mainDiv">
+      <!-- navbar -->
+      <nav class="navbar navbar-expand-xl navbar-light bg-light">
+        <div class="container-fluid">
+          <img class="navbar-brand mx-2" src="/Pratica/M3 -W3D1/assets/logo.svg" alt="">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarBasic" aria-controls="navbarBasic" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse show" id="navbarBasic">
+            <ul class="navbar-nav me-auto mb-2 mb-xl-0">
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Browse
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Landings
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Pages
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Accounts
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+            </ul>
+            <form class="d-flex align-items-center gap-3 me-2">
+              <i class="fa-regular fa-bell circle" style="color: #828282;"></i>
+              <img id="user" class="circle" src="/Pratica/M3 -W3D1/assets/avatar-1.jpg" alt="">
+            </form>
+          </div>
+        </div>
+      </nav>
+      <!-- jumbotron -->
+      <div id="jumbotron" class="conteiner-fluid d-flex justify-content-center">
+        <div class="conteiner d-flex justify-content-evenly align-items-center gap-5">
+          <div id="welcome" class="d-flex flex-column">
+            <h1 class="text-nowrap">Welcome Web Students!</h1>
+            <p>Hand-picked instructors and expertly crafted<br>courses, designed for the modern students and<br>entrepreneur</p>
+            <div>
+              <button type="button" class="btn btn-success">Browse Courses</button>
+              <button type="button" class="btn btn-light">Are you instructor?</button>
+            </div>
+          </div>
+          <hr class="divider mx-5">
+          <img src="/Pratica/M3 -W3D1/assets/hero-img.png" alt="">
+        </div>
+      </div>
+      <!-- statistiche -->
+      <div class="conteiner-fluid">
+        <div class="stats row row-cols-auto conteiner-fluid justify-content-center align-items-center">
+          <div class="video d-flex justify-content-center align-items-center gap-3">
+            <i class="fa-solid fa-video circle"></i>
+           <div class="stats-info d-flex flex-column align-content-center">
+            <p class="fw-bold">30.000 online courses</p>
+            <p class="text-secondary">Enjoy a variety of fresh topics</p>
+           </div> 
+          </div>
+          <div class="expert d-flex justify-content-center align-items-center gap-3">
+            <i class="fa-solid fa-users circle"></i>
+            <div class="stats-info d-flex flex-column">
+              <p class="fw-bold">Expert instruction</p>
+              <p class="text-secondary">Find the right instructor fo you</p>
+             </div> 
+          </div>
+          <div class="clock d-flex justify-content-center align-items-center gap-3">
+            <i class="fa-solid fa-clock circle"></i>
+            <div class="stats-info d-flex flex-column">
+              <p class="fw-bold">Lifetime access</p>
+              <p class="text-secondary">Learn on your schedule</p>
+             </div> 
+          </div>
+        </div>
+      </div>
+      <!-- lista corsi -->
+      <div class="courses mt-5">
+        <div class="rac">
+          <h4>Raccomended for you</h4>
+          <div class="course-list ">
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="https://kit.fontawesome.com/602cf3c366.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
