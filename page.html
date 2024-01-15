@@ -61,14 +61,14 @@
             </ul>
             <form class="d-flex align-items-center gap-3 me-2">
               <i class="fa-regular fa-bell circle" style="color: #828282;"></i>
-              <img id="user" class="circle" src="/Pratica/M3 -W3D1/assets/avatar-1.jpg" alt="">
+              <img id="userMain" class="circle" src="/Pratica/M3 -W3D1/assets/avatar-1.jpg" alt="">
             </form>
           </div>
         </div>
       </nav>
       <!-- jumbotron -->
-      <div id="jumbotron" class="conteiner-fluid d-flex justify-content-center">
-        <div class="conteiner d-flex justify-content-evenly align-items-center gap-5">
+      <div id="jumbotron" class="conteiner d-flex justify-content-center">
+        <div class="conteiner row row-cols-auto flex-row flex-nowrap justify-content-evenly align-items-center">
           <div id="welcome" class="d-flex flex-column">
             <h1 class="text-nowrap">Welcome Web Students!</h1>
             <p>Hand-picked instructors and expertly crafted<br>courses, designed for the modern students and<br>entrepreneur</p>
@@ -77,12 +77,11 @@
               <button type="button" class="btn btn-light">Are you instructor?</button>
             </div>
           </div>
-          <hr class="divider mx-5">
           <img src="/Pratica/M3 -W3D1/assets/hero-img.png" alt="">
         </div>
       </div>
       <!-- statistiche -->
-      <div class="conteiner-fluid">
+      <div class="stat-cont">
         <div class="stats row row-cols-auto conteiner-fluid justify-content-center align-items-center">
           <div class="video d-flex justify-content-center align-items-center gap-3">
             <i class="fa-solid fa-video circle"></i>
@@ -109,11 +108,70 @@
       </div>
       <!-- lista corsi -->
       <div class="courses mt-5">
-        <div class="rac">
-          <h4>Raccomended for you</h4>
-          <div class="course-list ">
+        <!-- raccomandati -->
+        <h4>Raccomended for you</h4>
+        <div class="rac d-flex justify-content-center mt-5">
+          <div class="course-list row row-cols-auto justify-content-between">
+            <!-- cards -->
+            <!-- card1 -->
+            <div class="card-cont d-flex flex-column">
+              <div class="card-img">
+                <img src="/Pratica/M3 -W3D1/assets/course-graphql.jpg" alt="">
+              </div>
+              <div class="card-txt d-flex flex-column bg-light">
+                <div class="card-desc px-4 my-4">
+                  <span>GraphQL: introduction to <br> graphQL for beginners</span>
+                </div>
+                <div class="card-user border-top px-4 py-2 d-flex justify-content-between align-items-center">
+                 <div class="user-icon-name">
+                  <img class="user-c circle" src="assets/avatar-5.jpg" alt="">
+                  <span>Brooklyn Simmons</span>
+                 </div>
+                  <i class="fa-regular fa-bookmark"></i>
+                </div>
+              </div>
+            </div>
+            <!-- card2 -->
+            <div class="card-cont d-flex flex-column">
+              <div class="card-img">
+                <img src="/Pratica/M3 -W3D1/assets/course-javascript.jpg" alt="">
+              </div>
+              <div class="card-desc">
+                test
+              </div>
+              <div class="card-user">
+                test
+              </div>
+            </div>
+            <!-- card3 -->
+            <div class="card-cont d-flex flex-column">
+              <div class="card-img">
+                <img src="/Pratica/M3 -W3D1/assets/course-node.jpg" alt="">
+              </div>
+              <div class="card-text d-flex flex-column">
+                <div class="card-desc">
+                  <span>test</span>
+                </div>
+                <div class="card-user">
+                  test
+                </div>
+              </div>
+            </div>
+            <!-- card4 -->
+            <div class="card-cont d-flex flex-column">
+              <div class="card-img">
+                <img src="/Pratica/M3 -W3D1/assets/course-laravel.jpg" alt="">
+              </div>
+              <div class="card-desc">
+                test
+              </div>
+              <div class="card-user">
+                test
+              </div>
+            </div>
           </div>
         </div>
+       </div> 
       </div>
     </div>
     <script src="https://kit.fontawesome.com/602cf3c366.js" crossorigin="anonymous"></script>
