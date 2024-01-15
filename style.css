@@ -5,7 +5,8 @@
 }
 #mainDiv{
     background-color: lightgrey;
-    height: 100vh;
+    height: 100%;
+    width: 100%;
 }
 li.nav-item{
     font-weight: bold;
@@ -13,7 +14,7 @@ li.nav-item{
 .circle{
     border-radius: 50%;
 }
-#user{
+#userMain{
     width: 40px;
 }
 form i.fa-regular{
@@ -23,7 +24,7 @@ form i.fa-regular{
 #jumbotron{
     background-color: #7550FE;
     height: 40vh;
-    position: relative;
+    width: 100%;
 }
 #welcome h1 , p{
     color: white;
@@ -35,9 +36,14 @@ form i.fa-regular{
 }
 #jumbotron img{
     width: 492px;
+    height: 100%;
 }
 #jumbotron div.conteiner{
     width: 50vw;
+    gap: 150px;
+}
+.stat-cont{
+    width: 100%;
 }
 .stats{
     background-color: white;
@@ -60,5 +66,37 @@ div.stats > div{
 .stats-info{
     height: 60px;
 }
-
+.courses h4{
+    /* border-style: solid;
+    border-width: 1px; */
+    width: 50vw;
+    text-align: center;
+}
+div.card-cont{
+    width: 300px;
+    height: 350px;
+    border-radius: 0px 0px 10px 10px;
+    transition: width 0.1s ease .1s;
+    /* transition: height 3s linear .2s; */
+}
+div.card-cont:hover{
+    width: 315px;
+    box-shadow: 0px 0px 5px 4px rgba(0,0,0,0.6);
+}
+div.card-txt span{
+    max-width: 250px;
+    min-width: 250px;
+}
+div.card-img img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px 10px 0px 0px;
+}
+.user-c{
+    width: 25px;
+}
+div.card-cont i.fa-regular{
+    color: #828282;
+    cursor: pointer;
+}
 
